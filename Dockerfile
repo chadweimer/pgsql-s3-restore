@@ -1,6 +1,6 @@
 FROM bitnami/aws-cli:1
 ARG TARGETPLATFORM
-LABEL maintainer="ch@dweimer.com"
+LABEL maintainer="git@cwmr.dev"
 
 RUN apk add --no-cache postgresql
 
