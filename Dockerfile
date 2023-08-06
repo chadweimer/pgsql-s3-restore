@@ -1,4 +1,4 @@
-FROM bitnami/aws-cli:1
+FROM ghcr.io/chadweimer/aws-cli:1.29.20
 ARG TARGETPLATFORM
 LABEL maintainer="git@cwmr.dev"
 
